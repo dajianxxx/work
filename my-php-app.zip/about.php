@@ -3,7 +3,7 @@
 <head>
     <title>About Page</title>
     <link rel="stylesheet" href="assets/style.css">
-</head>
+<head>
 <body>
     <h1>About</h1>
     <p>This page is rendered by PHP too.</p>
