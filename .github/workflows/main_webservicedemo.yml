@@ -38,7 +38,7 @@ jobs:
           app-name: 'webservicedemo' # 改成你的 Azure Web App 名字
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7AC6EE1560F8444DBF4D572509066884 }}
-          package: .
+          package: ${{ github.workspace }}
           clean: true
           app-settings: '-WEBSITE_RUN_FROM_PACKAGE 0'
 
