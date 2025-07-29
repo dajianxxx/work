@@ -39,6 +39,7 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7AC6EE1560F8444DBF4D572509066884 }}
           package: .
+          clean: true
           app-settings: '-WEBSITE_RUN_FROM_PACKAGE 0'
 
 
