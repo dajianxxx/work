@@ -9,4 +9,4 @@
     <p>This page is rendered by PHP too.</p>
     <a href="index.php">Back to Home</a>
 </body>
-</html>
+<html>
